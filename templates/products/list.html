@@ -1,1 +1,8 @@
-<h1>Products ishlayapti 🚀</h1>
+<h1>Products List</h1>
+
+{% for product in products %}
+    <div>
+        <h3>{{ product.title }}</h3>
+        <p>{{ product.price }} so‘m</p>
+    </div>
+{% endfor %}
